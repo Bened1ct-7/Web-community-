@@ -1,0 +1,80 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+ 
+ * {
+   box-sizing: border-box !important;
+   font-family: "Poppins", sans-serif !important;
+ }
+ 
+ :root {
+   --main-color: #DE3163;
+ }
+ 
+ ul, li {
+   list-style: none !important;
+   margin: 0 !important;
+   padding: 0 !important;
+ }
+ 
+ .main-bg {
+   background: var(--main-color) !important;
+ }
+
+@media screen and (max-width:576px) {
+  header nav ul li {
+    font-size: 0.9rem;
+  }
+}
+
+a.small {
+  text-decoration: underline !important;
+}
+
+header a.btn {
+  background: var(--main-color) !important;
+}
+
+header i {
+  font-size: 2rem;
+}
+
+.main-icon {
+  font-size: 3.5rem;
+}
+
+section .card img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover !important;
+}
+
+section .card-head .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section .user-name {
+  font-weight: 500 !important;
+  text-transform: capitalize;
+}
+
+section .info span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.pwd {
+  position: relative;
+}
+
+.pwd i {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.errorText {
+  display: none;
+}
